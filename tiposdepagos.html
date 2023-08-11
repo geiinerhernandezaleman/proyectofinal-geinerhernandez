@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artinyou</title>
+    <!-- implementar los css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/269a02f529.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+     <!-- slider  -->
+
+   
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button> 
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button> 
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/imagenes/fondo.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>te invitamos que seas gr</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/imagenes/fondo3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/imagenes/fondoo2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/imagenes/fondoo2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    <!-- logo y el menu -->
+
+    <!-- logo -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" id="menu" >
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="/imagenes/art in.jpg" alt="" id="logo">
+            </a>
+           
+            <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarnavdropdown" aria-controls="navbarnavdropdown"
+            aria-expanded="false" aria-label="toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+    
+        </button>
+        <div class="collapse navbar-collapse"   
+    
+        id="navbarnavdropdown">
+    
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">inicio</a>
+            </li>
+    
+            
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page"
+                href="nosotros.html">nosotros</a>
+            </li>
+    
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">barberia</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">domicilio de barberia
+    </a></li>
+                <li><a class="dropdown-item" href="tiposdecortes.html">tipos de cortes</a></li>
+              
+    <li><a class="dropdown-item" href="tiposdepagos.html">tipos de pagos</a></li>
+                <li><hr class="dropdown-divider">asesorias</li>
+                <li><a class="dropdown-item" href="#">Seguimientos y  procesos</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">tatuajes</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="reservas.html">reservas de tatuajes </a></li>
+                  <li><a class="dropdown-item" href="#">tipos de tatuajes</a></li>
+                  <li><a class="dropdown-item" href="#"></a>tipos de pagos</li>
+                  <li><a class="dropdown-item" href="#">asesorias</a></li>
+                  <li><a class="dropdown-item" href="#">seguimientos y procesos</a></li>
+                </ul>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">contacto</a>
+            </li>
+           
+            <!-- enlaces de redes sociales -->
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+              
+                      <li class="nav-item">
+                          <a class="nav-link" target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-whatsapp"></i></a>
+                         </li>
+                        <li class="nav-item">
+                          <a class="nav-link" target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-youtube"></i></a>
+                          </li>
+              
+                        <li class="nav-item">
+                          
+                          <a class="nav-link" target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-instagram"></i></a>
+                          
+                        </li>
+                    </ul>
+                  </div>
+                  </div>
+              </nav>
+
+<!-- sección novedades -->
+<div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="novedades">
+    <h2 class="titulo">tipos de pagos</h2>
+    <div class="col">
+      <div class="card h-50">
+        <img src="/imagenes/fondootat.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">pagos a credito</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+  
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"> </small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-50">
+        <img src="/imagenes/fondo tatu.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">pagos en linea</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-50">
+        <img src="/imagenes/fondo barbero.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">pagos a credito </h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"></small>
+        </div>
+      </div>
+    </div>
+  </div>
